@@ -43,7 +43,18 @@ nav a:active {
   border-bottom: 2px solid tomato;
 }
 
-#home,
+#home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 50vh;
+  min-height: 400px;
+  padding: 1rem;
+  color: firebrick;
+}
+
 #about {
   display: flex;
   align-items: center;
